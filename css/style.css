@@ -1,0 +1,149 @@
+h1.literature{
+    font-family: 'Century Gothic', 'Futura', Arial, serif;
+    padding: 20px;
+    font-size: 400%;
+    color: #EA9010;
+    margin: 5px;
+    text-align: center;
+}
+
+h1.history {
+    font-family: 'Century Gothic', 'Futura', Arial, serif;
+    padding: 20px;
+    font-size: 400%;
+    color: #EA9010;
+    margin: 5px;
+    text-align: center;
+}
+
+h1.literature::before{
+    content: url('../images/Red.png');
+    padding: 10px;
+}
+
+h1.literature::after{
+    content: url('../images/Red.png');
+    padding: 10px;
+}
+
+
+body.literature{
+    background-color:rgb(240, 206, 188);
+    color: #37423D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body nav ul{
+    text-align: center;
+}
+
+body.literature p{
+    color: #37423D;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 80px;
+    font-size: 18px;
+}
+
+body nav ul li{
+    display: inline-block;
+    font-family: 'Century Gothic','Futura',Arial,serif;
+    padding: 10px 20px;
+    background-color: rgb(240, 206, 188);
+    position: sticky;
+    top: 0;
+}
+
+body nav ul li a{
+    color: #A72608;
+    text-decoration: none;
+}
+
+body nav ul li a.active {
+    color: #A72608;
+    font-weight: bold;
+}
+
+body nav ul li a:hover{
+    color: #216996;
+    border-bottom: 3px dotted #EA9010;
+}
+
+
+body.literature h2{
+    font-family: 'Century Gothic','Futura',Arial,serif;
+    padding: 15px 10px;
+    font-size: 24px;
+    margin: 5px;
+    text-align: center;
+    color: #A40606;
+    font-style: italic;
+}
+
+body.literature img{
+    display: block;
+    margin: 10px 40px;
+    border: 10px dotted #EA9010;
+    width: 300px;
+    float: right;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+body.literature .terf{
+    display: none;
+}
+
+body.literature ul{
+    list-style: disc inside;
+    list-style-image: url(../images/Blue.png);
+    line-height: 1.5;
+    padding: 10px 60px;
+    font-size: 18px;
+    font-style: italic;
+    color: #216996
+}
+
+.author_sub{
+    font-size: 20px;
+    padding: 20px 40px 10px;
+    color: #A40606;
+    font-family: 'Century Gothic','Futura',Arial,serif;
+}
+
+body.literature footer p{
+    font-size: 15px;
+    color: #A40606;
+    line-height: .5;
+
+}
+
+body.history{
+    background-color: rgb(188, 222, 203);
+    color: #37423D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a.tops{
+    font-size: 15px;
+    color: #A40606;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+
+a.tops:hover{
+    margin: 20px;
+    color: #216996;
+    border-bottom: 3px dotted #EA9010;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skip{
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.skip:focus{
+    position: absolute;
+    transform: translateY(0%)
+}
