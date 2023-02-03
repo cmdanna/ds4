@@ -1,4 +1,4 @@
-h1.literature{
+h1{
     font-family: 'Century Gothic', 'Futura', Arial, serif;
     padding: 20px;
     font-size: 400%;
@@ -7,37 +7,34 @@ h1.literature{
     text-align: center;
 }
 
-h1.history {
-    font-family: 'Century Gothic', 'Futura', Arial, serif;
-    padding: 20px;
-    font-size: 400%;
-    color: #EA9010;
-    margin: 5px;
-    text-align: center;
-}
-
-h1.literature::before{
+h1::before{
     content: url('../images/Red.png');
     padding: 10px;
 }
 
-h1.literature::after{
+h1::after{
     content: url('../images/Red.png');
     padding: 10px;
 }
 
 
-body.literature{
+body{
     background-color:rgb(240, 206, 188);
     color: #37423D;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(240, 206, 188);
+    position: sticky;
+    top: 0;
 }
 
 body nav ul{
     text-align: center;
 }
 
-body.literature p{
+body p{
     color: #37423D;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 80px;
@@ -48,9 +45,7 @@ body nav ul li{
     display: inline-block;
     font-family: 'Century Gothic','Futura',Arial,serif;
     padding: 10px 20px;
-    background-color: rgb(240, 206, 188);
-    position: sticky;
-    top: 0;
+    font-style: normal;
 }
 
 body nav ul li a{
@@ -69,7 +64,7 @@ body nav ul li a:hover{
 }
 
 
-body.literature h2{
+body h2{
     font-family: 'Century Gothic','Futura',Arial,serif;
     padding: 15px 10px;
     font-size: 24px;
@@ -79,21 +74,20 @@ body.literature h2{
     font-style: italic;
 }
 
-body.literature img{
-    display: block;
+body img{
     margin: 10px 40px;
     border: 10px dotted #EA9010;
     width: 300px;
-    float: right;
     border-radius: 50%;
     padding: 10px;
+    float: right;
 }
 
-body.literature .terf{
+body .terf{
     display: none;
 }
 
-body.literature ul{
+body ul{
     list-style: disc inside;
     list-style-image: url(../images/Blue.png);
     line-height: 1.5;
@@ -110,25 +104,22 @@ body.literature ul{
     font-family: 'Century Gothic','Futura',Arial,serif;
 }
 
-body.literature footer p{
-    font-size: 15px;
+footer{
+    margin: 20px;
+}
+
+footer p.thanks{
     color: #A40606;
     line-height: .5;
-
 }
-
-body.history{
-    background-color: rgb(188, 222, 203);
-    color: #37423D;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 
 a.tops{
     font-size: 15px;
     color: #A40606;
     font-family: Arial, Helvetica, sans-serif;
-    margin:20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
 }
 
 a.tops:hover{
@@ -136,6 +127,8 @@ a.tops:hover{
     color: #216996;
     border-bottom: 3px dotted #EA9010;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .skip{
@@ -146,4 +139,25 @@ a.tops:hover{
 .skip:focus{
     position: absolute;
     transform: translateY(0%)
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+div{
+    justify-self: center;
+}
+
+img.main_img{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    border: none;
+    width: 100%;
+    padding: 0;
+    border: none;
+    border-radius: 0%;
 }
