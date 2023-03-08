@@ -282,7 +282,7 @@ div:nth-child(even) img {
     padding: 10px;
     margin: 20px;
     grid-column: 1/2;
-    grid-row: 1 / span 6;
+    grid-row: 1 / span 7;
     justify-self: center;
 }
 
@@ -293,7 +293,7 @@ div:nth-child(odd) img {
     padding: 10px;
     margin: 20px;
     grid-column: -2/-1;
-    grid-row: 1 / span 6;
+    grid-row: 1 / span 7;
     justify-self: center;
 }
 
