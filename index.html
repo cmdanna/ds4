@@ -10,30 +10,33 @@
   <link rel="stylesheet" href="css/style.css">
   
   <!-- connect to a Google font -->  
-  <!-- connect to a Font Aweseom font -->
+  <link rel="stylesheet" link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface">
+  <!-- connect to a Font Awesome font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
   <!-- connect to a favicon -->
   <link rel="icon" href="images/Yellow.png">
   
   <title>Women's Web</title>
 </head>
 
-<body>
+<body id="main">
+  <a href="#mainstuff" class="skip">Skip to Main Content</a>
   <header>
     <nav>
         <ul>
-          <li><a class="active" href="index.html">About</a></li>
-          <li><a href="literature.html">Literature</a></li>
-          <li><a href="history.html">History and Politics</a></li>
-          <li><a href="femdict.html">Feminist Dictionary</a></li>
+          <li><a class="active index_page" href="index.html">About</a></li>
+          <li><a class="lit_page" href="literature.html">Literature</a></li>
+          <li><a class="hist_page" href="history.html">History and Politics</a></li>
+          <li><a class="dict_page" href="femdict.html">Feminist Dictionary</a></li>
         </ul>
     </nav>
-    <h1> Woman's Web </h1>
+    <h1>Woman's Web</h1>
   </header>
 
-  <main>
+  <main class="index_container" id="mainstuff">
     <img class="main_img" src="images/women_march_pano.jpg" width="200" alt="Image of the Ann Arbor Women's March">
-
-    <div>
+    <h2 id="reveal">Educate. Elevate. Empower.</h2>
+    <div class="synopsis">
       <p>
         This website started as an idea when Kelsey Toporski was a freshman in college taking my first <a href="https://lsa.umich.edu/women"> Women's Studies</a> class. As a junior, she had the skill set to make it happen. Growing up in a small, rural, conservative town, this class was really her first introduction to feminism and feminist thought, and she wanted to share her new found knowledge with others. This website is where a lot of feminist things could be compiled in one place, purely because people might not otherwise know about it. Her hometown may not have been forward thinking, but it did have internet connection.
       </p>
@@ -41,27 +44,28 @@
         This website currently contains 3 pages other than this one - click below to see a short description of each!
       </p>
     </div>
-
-      Literature
-      <div>
+    <div class="pages">
+    <div class="page" id="lit">
+      <h2>Literature</h2>
         <p>
           This page features books written by women and for women, books and essays about feminism, poems, plays, and bios of female writers.
         </p>
-      </div>
-      History / Politics
-      <div>
+    </div>
+    <div class="page" id="hist">
+      <h2>History / Politics</h2>
         <p>
           This page features bios of important women in history and women currently in Congress or otherwise politically involved.
         </p>
-      </div>
-      Feminist Dictionary
-      <div>
-        <p>
-          This page features a collection of important feminist terminology that might make reading easier. These will include formal definitions and my own understandings of the terms.
-        </p>
-      </div>
+    </div>
+    <div class="page" id="dict">
+      <h2>Feminist Dictionary</h2>
+      <p>
+        This page features a collection of important feminist terminology that might make reading easier. These will include formal definitions and my own understandings of the terms.
+      </p>
+    </div>
+    </div>
 
-    <div>
+    <div class="disclaimer">
       <p>
         <span>Kelsey's DISCLAIMER:</span> I did not know everything!! I'm only human - I'm still growing and learning and I have a limited knowledge of things, but I will do my best and work to make this page as inclusive and unbiased as possible.
       </p>
@@ -72,8 +76,8 @@
     <p class="thanks">
       Thanks for visiting! <i></i>
     </p>
-    <p>Orginal content created by Kelsey Toporski 2019</p>
-    <a href="#main">Back to Top</a>
+    <p class="thanks">Original content created by Kelsey Toporski 2019</p>
+    <a href="#main" class="tops">Back to Top</a>
   </footer>
   </main>
 </body>
