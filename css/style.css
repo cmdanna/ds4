@@ -204,6 +204,19 @@ h2{
 
 /* literature-history */
 
+
+div.lit-hist{
+    opacity: 50%;
+}
+
+div.lit-hist:hover{
+    opacity: 100%;
+}
+
+div.lit-hist:focus {
+    opacity: 100%;
+}
+
 div:nth-child(even) h3 {
     font-size: 18px;
     padding: 20px 40px 10px;
